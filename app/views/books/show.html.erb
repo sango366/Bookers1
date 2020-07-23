@@ -1,0 +1,18 @@
+<p id="notice">Book was successfully created.</p>
+
+<h1>Books</h1>
+<span>Title:
+	<%= @book.title %>
+</span>
+<span>Body:
+		<%= @book.body %>
+</span>
+<%= link_to "edit", edit_book_path(@book) %>
+<%= link_to "back", "/books" %>
+
+
+
+<!-- <td><a class="show_216568" href="/books/216568">Show</a></td>
+        <td><a class="edit_216568" href="/books/216568/edit">Edit</a></td>
+        <td><a data-confirm="Are you sure?" class="destroy_216568" rel="nofollow" data-method="delete" href="/books/216568">Destroy</a></td>
+      </tr> -->
